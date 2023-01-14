@@ -20,3 +20,27 @@ torch
 numpy
 pandas
 ```
+
+
+## Environment
+The Environment comprises N mobile UEs randomly initially scattered in a 100m X 100m 2D space. The UEs are in a constant state of motion, traveling in random direction and at the speed v_ue.
+
+### State
+```
+[Battery left in UAV, location of UAV, Total Task Left Sum, Task Size of all N UEs, location of all N UEs, Block Flag for all N UEs]
+```
+
+### Action
+```
+[UE id, flight angle, flight speed, offloading-ratio]
+```
+where
+  1. **UE id** - is which User Equipment(UE) is to be served for that particular time quantum 
+  2. **flight angle** - the direction in which UAV should fly to serve the next ue 
+  3. **flight speed** - the speed s of UAV, 0 <= s <= v_max where v_max is maximum speed the UAV can achieve
+  4. **off-loading ratio** - the ratio of task to be uploaded in the UAV
+
+### Reward
+The reward function consists of a weighted sum of computations performed in a specific time quantum and the number of UEs that complete their computations inside that time quantum.
+
+### Result
