@@ -43,6 +43,7 @@ where
 ### Reward
 The reward function consists of a weighted sum of computations performed in a specific time quantum and the number of UEs that complete their computations inside that time quantum.
 
+___
 ### Results
 
 ![Result 1](/results/result1.png)
