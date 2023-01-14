@@ -43,4 +43,10 @@ where
 ### Reward
 The reward function consists of a weighted sum of computations performed in a specific time quantum and the number of UEs that complete their computations inside that time quantum.
 
-### Result
+### Results
+
+![Result 1](/results/result1.png)
+![Result 2](/results/result2.png)
+
+Models were trained for 25k episodes.
+The graph shows a significant drop in the average time delay for the models.
