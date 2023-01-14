@@ -10,7 +10,7 @@ The arrival of 5G has paced the research towards edge computing so that computat
 - It consists of implementation of UE scheduling using `DDPG(Deep Deterministic Policy Gradient)` and `SAC(Soft Actor Critic)` algorithm
 - **Next Step** 
   1. Obtain comparable outcomes utilizing `A3C (Asynchronous Advantage Actor Critic)` algorithm.
-  2. Moving towards `MARL(Multi-Agent Reinforcement Learning)` for all algorithms
+  2. Transitioning to MARL (Multi-Agent Reinforcement Learning) for all above algorithms
 
 ## Requirements
 ```
